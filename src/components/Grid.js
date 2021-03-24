@@ -1,8 +1,29 @@
 import React from 'react'
 
 class Grid extends React.Component {
-    render() {
+    constructor(props) {
+        super(props);
 
+        this.state = [
+            {
+                nombre: 'Alí Santoago',
+                materia01: '80',
+                materia01: '80',
+                materia01: '80',
+                materia01: '80',
+
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    }
+    render() {
         return(
             <div className="container border border-3 border-success">
                 <div className="row border-bottom border-1 border-success">
