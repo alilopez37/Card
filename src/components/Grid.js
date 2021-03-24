@@ -8,10 +8,9 @@ class Grid extends React.Component {
             {
                 nombre: 'Alí Santoago',
                 materia01: '80',
-                materia01: '80',
-                materia01: '80',
-                materia01: '80',
-
+                materia02: '80',
+                materia03: '80',
+                materia04: '80',
             },
             {},
             {},
