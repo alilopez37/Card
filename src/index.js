@@ -2,8 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './components/App'
 import Header from './components/Header'
+import Home from './pages/Home'
 
 ReactDOM.render(
-    <Header />,
+    <Home />,
     document.getElementById('root')
 );
