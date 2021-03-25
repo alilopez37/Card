@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './components/App'
-import Header from './components/Header'
-import Home from './pages/Home'
+
+import Layaout from "./pages/Layaout";
+
 
 ReactDOM.render(
-    <Home />,
+    <Layaout />,
     document.getElementById('root')
 );
